@@ -3,59 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Comfortaa;
-    color: white;
-    background-color: black;
-}
-
-/*titulo comun a todas las paginas*/
-.menuItem {
-    padding-top: 30px;
-    padding-left: 15px;
-    text-shadow: 3px -1px blue;
-    text-decoration-line: underline;
     
 }
-/*FUENTE BAJADA: font-family: 'Comfortaa', cursive;
-*/
+
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: 
+    "header header header"
+    "div div article"
+    "coments coments coments"
+    "footer footer footer";
+}
+
+
+.logo_empresa {
+    width: 5rem;
+}
+
+.logo_empresa {
+    width: 5rem;
+}
+
+
 
 
 /* ENCABEZADO GENERAL */
-header{
-    position: sticky;
-    top: 0;
-}
 
-.logoEncabezado {
-    width: 100px;
-    height: 60px;
-}
 
-.encabezadoGeneral {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    padding-left: 10px;
-    align-items: center;
-}
 
-.itemsMenu {
-    display: inline-block;
-    padding: 10px;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    border-radius: 5px;
-    box-shadow: -2px 2px 2px rgb(193, 190, 190);
-}
 
-.itemsMenu a {
-    text-decoration: none;
-    color: white;
-}
 
-.tituloEncabezado {
-    font-size: 30px;
-}
+
 
 
 /*MAIN*/
